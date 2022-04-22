@@ -5,8 +5,8 @@ public class Account { // 계좌
 	String number = "";
 	int money = 0;
 	
-	void printOwnAccount() {
-		System.out.println(number +  " : " + money);
+	void printOwnAccount() { // 자신의 계좌 출력 
+		System.out.println(number +  " : " + money); 
 	}
 	
 }

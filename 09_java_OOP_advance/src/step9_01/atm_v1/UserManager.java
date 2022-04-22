@@ -2,11 +2,11 @@ package step9_01.atm_v1;
 
 import java.util.Scanner;
 
-public class UserManager {
+public class UserManager { // 사용자 관리 
 	
 	Scanner scan = new Scanner(System.in);
-	User[] user = null;
-	int userCount = 0;
+	User[] user = null; 
+	int userCount = 0; // 사용자 수 
 	
 	void printAllUser() {
 		for(int i = 0; i < userCount; i++) {
