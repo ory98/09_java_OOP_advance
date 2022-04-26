@@ -67,7 +67,7 @@ public class UserManager { // 사용자 관리
 		String name = scan.next();
 		
 		for (int i = 0; i < userCount; i++) {
-			if (name.equals(user[i].id)) {
+			if (name.equals(user[i].id)) { 
 				identifier = i;
 				System.out.println("[" + user[identifier].id + "] 님 로그인.\n");
 			}
